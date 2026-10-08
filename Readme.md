@@ -8,7 +8,7 @@
 - [ ] 建立 Docker 環境
   ```shell
   docker build -t apcs-dev .
-  docker run -it --name apcs-container -v .:/apcs-folder apcs-dev
+  docker run -it --name apcs-container -v .:/home/apcs-folder apcs-dev
   ```
 - [ ] 嘗試基礎 **Linux 指令**
   - 建議觀看影片： https://www.youtube.com/watch?v=zdwmMl1GAVQ（第一段、第三段）

@@ -10,5 +10,5 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # 預設使用 root + 進入 bash
-WORKDIR /root
+WORKDIR /home/apcs-folder
 CMD ["/bin/bash"]
